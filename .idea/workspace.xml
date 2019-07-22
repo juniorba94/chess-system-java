@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="005b0630-918c-4b56-8f5f-3f6b72209461" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/ChessApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/ChessApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/UI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessMatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chess/ChessPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessPiece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chess/ChessPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessPosition.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/application/ChessApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+            <state relative-caret-position="282">
+              <caret line="54" column="48" lean-forward="true" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,7 +60,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chess/pieces/Rook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
+            <state relative-caret-position="281">
               <caret line="70" column="50" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -100,8 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chess/ChessMatch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-241">
-              <caret line="99" column="5" lean-forward="true" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
+            <state relative-caret-position="149">
+              <caret line="168" column="49" lean-forward="true" selection-start-line="168" selection-start-column="49" selection-end-line="168" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#620#621#0" expanded="true" />
@@ -110,6 +107,8 @@
                 <element signature="e#721#722#0" expanded="true" />
                 <element signature="e#820#821#0" expanded="true" />
                 <element signature="e#848#849#0" expanded="true" />
+                <element signature="e#911#912#0" expanded="true" />
+                <element signature="e#942#943#0" expanded="true" />
                 <element signature="e#3517#3518#0" expanded="true" />
                 <element signature="e#3590#3591#0" expanded="true" />
               </folding>
@@ -135,11 +134,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/application/UI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="56" column="52" selection-start-line="56" selection-start-column="52" selection-end-line="56" selection-end-column="52" />
+            <state relative-caret-position="255">
+              <caret line="64" column="75" lean-forward="true" selection-start-line="64" selection-start-column="75" selection-end-line="64" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -172,10 +171,10 @@
         <option value="$PROJECT_DIR$/src/chess/pieces/Rook.java" />
         <option value="$PROJECT_DIR$/src/chess/pieces/King.java" />
         <option value="$PROJECT_DIR$/src/chess/ChessPiece.java" />
-        <option value="$PROJECT_DIR$/src/application/UI.java" />
-        <option value="$PROJECT_DIR$/src/chess/ChessMatch.java" />
         <option value="$PROJECT_DIR$/src/chess/ChessPosition.java" />
+        <option value="$PROJECT_DIR$/src/chess/ChessMatch.java" />
         <option value="$PROJECT_DIR$/src/application/ChessApp.java" />
+        <option value="$PROJECT_DIR$/src/application/UI.java" />
       </list>
     </option>
   </component>
@@ -286,8 +285,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26656026" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26656026" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -296,7 +296,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3306189" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3306189" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -304,7 +304,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32899022" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -372,26 +372,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chess/ChessException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding>
-            <element signature="e#220#221#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chess/pieces/Rook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="70" column="50" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chess/pieces/King.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -429,30 +409,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/UI.java">
+    <entry file="file://$PROJECT_DIR$/src/chess/ChessException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="52" selection-start-line="56" selection-start-column="52" selection-end-line="56" selection-end-column="52" />
+        <state relative-caret-position="120">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chess/ChessMatch.java">
+    <entry file="file://$PROJECT_DIR$/src/chess/pieces/Rook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-241">
-          <caret line="99" column="5" lean-forward="true" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
+        <state relative-caret-position="281">
+          <caret line="70" column="50" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#685#686#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
-            <element signature="e#3517#3518#0" expanded="true" />
-            <element signature="e#3590#3591#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -468,10 +440,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/chess/ChessMatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="168" column="49" lean-forward="true" selection-start-line="168" selection-start-column="49" selection-end-line="168" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#3517#3518#0" expanded="true" />
+            <element signature="e#3590#3591#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/application/ChessApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        <state relative-caret-position="282">
+          <caret line="54" column="48" lean-forward="true" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/UI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="64" column="75" lean-forward="true" selection-start-line="64" selection-start-column="75" selection-end-line="64" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
